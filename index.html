@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Liam @ liams.tech</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/liam.css" />
+        <link rel="stylesheet" href="assets/css/preLoad.css" />
+    </head>
+    
+    <body onload="preLoad()" style="margin:0;">
+        <div id="loader"></div>
+        <div style="display:none;" id="mainSite" class="animate-button">
+            <video autoplay muted loop id="bgVideo">
+                <source src="https://api.liams.tech/api/content/06_2020_domains_liamstech_websiteContent_vbg.mp4" type="video/mp4">
+              </video>
+            <ul class="menu-bar">
+                <a href="https://status.liampbennett.me">Status</a>
+                <a href="https://images.liams.tech">Images</a>
+                <a href="legal.html">Legal</a>
+                <a href="mailto:liam@liampbennett.me">Contact</a>
+            </ul>
+
+            <section class="overall">
+                <h1>liams.tech</h1>
+                <div id="message"></div>
+            </section>
+        </div>
+    </body>
+    <script src="assets/javascript/preLoad.js"></script>
+    <script src="assets/javascript/randomMessage.js"></script>
+</html>
